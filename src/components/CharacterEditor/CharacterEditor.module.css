@@ -43,3 +43,10 @@
   right: 0;
   background-color: hsl(195deg, 20%, 86%);
 }
+
+@media screen and (max-width: 500px) {
+  .controlColumn {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}
